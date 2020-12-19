@@ -29,3 +29,4 @@ $text = implode('', $words);
 $text = preg_replace('#(.*?)\n(.*?)\n#', "$1 $2\n", $text);
 
 print $text;
+?>
